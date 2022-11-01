@@ -3,8 +3,8 @@ function Pricecard({data}) {
  return ( < div className="col-lg-4" >
         <div className="card mb-5 mb-lg-0">
             <div className="card-body">
-                <h5 className="card-title text-muted text-uppercase text-center">{data.title}</h5>
-                <h6 className="card-price text-center">${data.price}<span className="period">/month</span></h6>
+                <h4 className="card-title text-muted text-uppercase text-center">{data.title}</h4>
+                <h1 className="card-price text-center">${data.price}<span className="period">/month</span></h1>
                 <hr />
                 <ul className="fa-ul">
                     {
